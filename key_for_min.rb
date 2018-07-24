@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
         min_value = number
       end
       placeholder_value = number
-      if placeholder_value < min_value
+      if placeholder_value <= min_value
         min_value = placeholder_value
         key_for_min_value = name
       end
